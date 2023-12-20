@@ -38,7 +38,7 @@ max_date = all_df['dteday'].max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("logo.png")
+    st.image("https://github.com/RizkiAshPrat/ProyekAnalisisDataDicoding/blob/main/dashboard/logo.png?raw=true")
 
     #Menambahkan Tanggal
     start_date, end_date = st.date_input(
