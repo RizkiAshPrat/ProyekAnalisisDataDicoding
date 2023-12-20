@@ -25,7 +25,7 @@ def create_monthly_df(df):
 # Mulai Membuat Dashboard
 # """
 #Load File
-all_df = pd.read_csv('main_data.csv')
+all_df = pd.read_csv('https://raw.githubusercontent.com/RizkiAshPrat/ProyekAnalisisDataDicoding/main/dashboard/main_data.csv')
 all_df.sort_values(by="dteday", inplace=True)
 all_df.reset_index(inplace=True)
 
